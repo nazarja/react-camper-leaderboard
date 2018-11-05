@@ -1,0 +1,142 @@
+/*  General */
+
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato' ,sans-serif;
+}
+
+a {
+  color: #006400;
+}
+
+a:hover {
+  color: #0088CC;;
+}
+
+/*  Header */
+
+.header {
+  background-color: #006400;
+  color: white;
+  padding: 20px;
+  box-shadow: 0 5px 8px rgba(0,0,0,0.12), 0 10px 20px rgba(0,0,0,0.24);
+}
+
+.header  h1 {
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 0 5px 8px rgba(0,0,0,0.12), 0 10px 20px rgba(0,0,0,0.24);
+}
+
+/*  MenuBar */
+
+.selected {
+  text-decoration: underline;
+}
+
+.selected:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.selected:active {
+  text-decoration: none;
+}
+
+.arrows {
+ cursor: pointer;
+ color: white;
+ font-size: 1.5em;
+ font-weight: bold;
+}
+
+button {
+  border: 1px solid #006400;
+  border-radius: 50%;
+  background-color:   #006400;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  left: 91.5%;
+  top:25%;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.12), 0 4px 4px rgba(0,0,0,0.50);
+  transition: 0.4s;
+  outline: none;
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 0 10px 30px rgba(0,0,0,0.50), 0 4px 4px rgba(0,0,0,0.50);
+}
+
+button:active {
+  background: white;
+  outline: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+/*  Table  */
+
+.Table {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+table {
+  box-shadow: 0 5px 8px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); 
+}
+
+.img {
+  height: 30px;
+  width: 30px;
+  transition: all 0.3s ease-in-out; 
+}
+
+.img:hover {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); 
+  transform:  scale(1.25);
+  
+}
+
+thead {
+  background-color: #006400;
+  color: white;
+}
+
+/*  Footer */
+
+.footer {
+  background-color: #006400;
+  color: white;
+  padding: 20px;
+  padding-bottom: 5px;
+}
+
+.footer  p {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
+.footerSpan, .footer a {
+  font-weight: bold;
+}
+
+.footer  a {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #0088CC;
+  transition: 0.3s;
+}
